@@ -1,0 +1,119 @@
+/* Poll, Bulletin Board general */  
+  
+body {  
+    background-color: #fefefe;  
+    margin-top: 30px;  
+    font-family: Helvetica, Arial, Sans-Serif;  
+}  
+  
+ul {  
+    list-style-type: none;  
+    width: 60%;  
+    margin: 0 auto;  
+    padding: 10px 0px;  
+    border: 1px solid #cccccc;  
+    border-radius: 6px;  
+    background-color: #f7f7f7;  
+    box-shadow: 0px 0px 10px #bbbbbb;  
+}  
+  
+li {  
+    padding: 2em;  
+    border-bottom: 1px solid #cccccc;  
+}  
+  
+li:last-child {  
+    border-bottom: 0px;  
+}  
+  
+a {  
+    font-size: 2em;  
+    color: #333333;  
+    font-size: 2em;  
+    font-weight: bold;  
+    text-decoration: none;  
+}  
+  
+a:hover {  
+    text-decoration: underline;  
+}  
+  
+h1 {  
+    width: 60%;  
+    margin: 0 auto 20px;  
+    font-size: 2em;  
+    font-weight: bold;  
+    color: #333333;  
+}  
+  
+p {  
+    width: 60%;  
+    margin: 0 auto 10px;  
+    font-size: 1.25em;  
+}  
+  
+/* Vote page */  
+  
+form {  
+    width: 50%;  
+    margin: 0 auto;  
+    padding: 20px 5% 0px 5%;  
+    border: 1px solid #cccccc;  
+    background-color: #f7f7f7;  
+    box-shadow: 0px 0px 10px #bbbbbb;  
+}  
+  
+input[type="radio"] {  
+    margin-right: 10px;  
+    margin-bottom: 15px;  
+}  
+  
+label {  
+    margin: 0px 5% 15px 0px;  
+}  
+  
+input[type="submit"] {  
+    margin: 20px 0px;  
+    padding: 10px 0px;  
+    background-color: #ff9f36;  
+    color: #ffffff;  
+    width: 100%;  
+    font-weight: bold;  
+    border: 0px;  
+    border-radius: 12px;  
+    text-align: center;  
+}  
+  
+input[type="submit"]:hover {  
+    background-color: #d87d1a;  
+    cursor: pointer;  
+}  
+  
+/* Results page */  
+  
+.total {  
+    float: left;  
+    font-weight: bold;  
+    font-size: 1.5em;  
+    line-height: .7em;  
+    margin: 0px 20px;  
+    padding-bottom: 10px;  
+}  
+  
+/* No choice selected */  
+  
+.error {  
+    border-top: 4px solid #ac212c;  
+    background: #f7bbc0;  
+    padding: 10px;  
+}  
+  
+/* PLTW branding */  
+  
+body:after {  
+    margin-left: 22%;  
+    color: #cccccc;  
+    line-height: 3em;  
+    font-size: .75em;  
+    content: 'Copyright 2017 Project Lead The Way, Inc.';  
+}  
